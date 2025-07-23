@@ -1,4 +1,4 @@
-# ca-gen
+# burpcustomcert
 
 A lightweight and interactive script to generate a self-signed Certificate Authority (CA) certificate along with corresponding private keys in multiple formats — tailored for use with Burp Suite, Android penetration testing, and general TLS interception needs.
 
@@ -52,7 +52,7 @@ Windows: Use OpenSSL for Windows
 bash
 Copy
 Edit
-python3 ca-gen.py
+python3 burpcustomcert.py
 You will be prompted for:
 
 Certificate base name
